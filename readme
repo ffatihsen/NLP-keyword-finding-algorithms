@@ -1,0 +1,11 @@
+Bu proje de 3 farklı anahtar kelime bulma algoritması mevcuttur.Bunlar ;
+1-TF-IDF
+2-MainRank
+3-Gensim
+
+Bu algoritmalarda öncelikle işleyeceğimiz metin için temizlik yapmamız gerekiyor. Bizim için anlamlı fakat bilgisayar için anlamsız olan
+kelimeleri, bağlaçları ve edatları kaldırıyoruz.
+
+Daha sonra DB bağlantıları ile metni işliyoruz ve ortaya çıkan anahtar kelimeleri DB ye yazdırıyoruz.
+DB ye yazdırmak yerine diğer bir alternatifi olan txt dosyasına yazdırma kodları da mevcuttur.
+Programlar içerisinde birbirinin alternatifi olan birden fazla kod görebilirsiniz bunları yorum satırı içerisinde bulunmaktadır.
